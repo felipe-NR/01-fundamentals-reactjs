@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./App.module.css"
 import { Header } from "./components/Header"
+import { Post } from "./components/Post"
 import { Sidebar } from "./components/Sidebar"
 import "./global.css"
 
@@ -12,8 +13,8 @@ export function App() {
       <div className={styles.wrapper} >
         <Sidebar />
         <main>
-          <h1>Post</h1>
-          <h1>Post</h1>
+          <Post/>
+          <Post/>
         </main>
       </div>      
     </div>
